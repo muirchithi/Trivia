@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# AWS credentials
+.aws/
+
+# Flask instance folder (if you have one)
+instance/
+
+# Flask cache
+flask_session/
+
+# Environment variables file
+.env
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS files
+.DS_Store
+
+# Thumbnails
+._*
+
+# Ignore any compiled C extensions
+*.so
+
+# Test coverage
+htmlcov/
+.coverage
+
+# Unit test / coverage reports
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# AWS SAM build artifacts
+.aws-sam/build/
+
+# AWS CDK asset staging folder
+.cdk.staging/
+
+# Custom
+config.py
